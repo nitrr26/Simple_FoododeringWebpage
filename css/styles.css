@@ -1,0 +1,193 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+ scroll-behavior: smooth;
+}
+/*  font-family: 'Baloo Bhai', cursive; */
+/*font-family: 'Bree Serif', serif; */
+ body{ 
+     background: url('../img/bg11.webp') no-repeat center center/cover;
+ }
+#navbar{
+    display: flex;
+     position: sticky;
+    height:50px;
+    top: 0px;
+   
+}
+#navbar::before{
+    content: " ";
+    background-color: black;
+    position: absolute;
+    height: 50px;
+    width: 100%;
+    z-index: -1;
+}
+#navbar img{
+    height: 50px;
+    width: 50px;
+}
+#navbar ul{
+    display: flex;
+}
+#navbar ul li{
+    list-style: none;
+    margin-top: 17px;
+}
+#navbar ul li a{
+    text-decoration: none;
+    margin: 22px 22px;
+    color: white;
+}
+#navbar ul li a:hover{
+    color: red;
+    cursor: pointer;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 200px;
+}
+#home p{
+    text-align: center;
+    color: white;
+    padding: 8px;
+}
+#home h1{
+    color: white;
+    margin: 12px;
+}
+#services{
+    display: flex;
+    flex-direction: column;
+}
+#services h1{
+    color: rgb(220, 228, 235);
+}
+#services .box{
+    display: flex;
+height: 550px;
+}
+#services #canteen{
+   
+    margin: 22px;
+    padding: 34px;
+   
+    border: 2px solid gray;
+    border-radius: 12px;
+    background-color: rgb(216, 232, 245);
+}
+#services #bulkordering{
+    margin: 22px;
+    padding: 34px;
+    border: 2px solid gray;
+    border-radius: 12px;
+    background-color:rgb(216, 232, 245);
+}
+#services #delivery{
+    margin: 22px;
+    padding: 34px;
+    border: 2px solid gray;
+    border-radius: 12px;
+    background-color:rgb(216, 232, 245);
+                                                                           
+}
+#services p{
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+}
+#services img{
+    height: 175px;
+    width: 175px;
+    margin: auto;
+    display: block;
+}
+
+#clients{
+    /* border: 2px solid red; */
+  background-color: black;
+ 
+}
+
+#clients img{
+    height: 130px;
+    width: 130px;
+    margin: 44px;
+}
+#glimpses video{
+  height: 200px;
+  width: 200px;
+}
+#videos{
+    height: 250px;
+}
+#contact{
+
+    display: flex;
+    /* border: 2px solid red; */
+    height: 400px;
+    justify-content: center;  
+}
+#form{
+    color: black;
+    font-size: 18px;
+}
+#form input{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Bree Serif', serif;
+     text-align: center;
+     margin: 12px ;
+     width: 300px;
+     height: 20px;
+     font-weight: bold;
+     background-color:white;
+     color:black;
+}
+#form textarea{
+    background-color:white;
+    color:black;
+}
+#form #sub{
+    width: 55px;
+    height: 24px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    border-radius: 2px;
+}
+footer{
+    height: 150px;
+   color: white;
+   background-color: black;
+    font-size: 20px;
+    font-family: 'Bree Serif', serif;
+    text-align: center;
+}
+.primary-heading-center{
+    text-align: center;
+    color: white;
+}
+.secondary-heading-center{
+    text-align: center;
+    /* padding: 22px; */
+    margin-bottom: 23px;
+    
+}
+.btn{
+    width: 100px;
+    height: 25px;
+    border: 2px solid black;
+    border-radius: 8px;
+    margin-top: 12px;
+    font-size:15px; 
+ }
+ .btn:hover{
+   cursor: pointer;
+ color:white;
+ background-color: black;
+ }
